@@ -1,0 +1,12 @@
+[submodule "roles/base"]
+	path = roles/base
+	url = git@github.com:tvendelin/ansible-opensuse-15-base.git
+[submodule "roles/davinci_resolve"]
+	path = roles/davinci_resolve
+	url = git@github.com:tvendelin/ansible-opensuse-15-davinci-resolve-16.git
+[submodule "roles/nvidia"]
+	path = roles/nvidia
+	url = git@github.com:tvendelin/ansible-opensuse-15-nvidia-cuda.git
+[submodule "roles/multimedia-tools"]
+	path = roles/multimedia-tools
+	url = git@github.com:tvendelin/ansible-opensuse-15-multimedia-tools.git
