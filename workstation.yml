@@ -1,5 +1,5 @@
 ---
-- hosts: multimedia_workstations
+- hosts: localhost
   remote_user: root
   roles:
   - base
