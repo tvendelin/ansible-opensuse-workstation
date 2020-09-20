@@ -1,0 +1,8 @@
+---
+- hosts: multimedia_workstations
+  remote_user: root
+  roles:
+  - base
+  - nvidia
+  - 'multimedia-tools'
+  - davinci_resolve
