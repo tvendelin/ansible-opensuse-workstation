@@ -1,6 +1,11 @@
 ---
 - hosts: localhost
   remote_user: root
+  become: true
+  become_method: su
+
+  vars:
+      ansible_python_interpreter: '/usr/bin/python3'
   roles:
   - base
   - nvidia
